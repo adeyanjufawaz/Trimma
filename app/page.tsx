@@ -1,15 +1,15 @@
 import Image from "next/image";
-import ServiceSection from "./section/ServiceSection";
-import CoatOfArmSection from "./section/CoatOfArmSection";
-import Section from "./component/Section";
-import WhyChooseUs from "./section/WhyChooseUs";
-import IntroduceSection from "./section/IntroduceSection";
-import Hero from "./section/Hero";
-import Navbar from "./component/Navbar";
-import BlogSection from "./section/BlogSection";
-import ClientFeedBackSection from "./section/ClientFeedBackSection";
-import ReadyToWorkSection from "./section/ReadyToWorkSection";
-import Footer from "./section/Footer";
+import ServiceSection from "./pages/homepage/section/ServiceSection";
+import CoatOfArmSection from "./pages/homepage/section/CoatOfArmSection";
+import Section from "./component/homepage/Section";
+import WhyChooseUs from "./pages/homepage/section/WhyChooseUs";
+import IntroduceSection from "./pages/homepage/section/IntroduceSection";
+import Hero from "./pages/homepage/section/Hero";
+import BlogSection from "./pages/homepage/section/BlogSection";
+import ClientFeedBackSection from "./pages/homepage/section/ClientFeedBackSection";
+import ReadyToWorkSection from "./pages/homepage/section/ReadyToWorkSection";
+import Footer from "./pages/homepage/section/Footer";
+import Navbar from "./component/homepage/Navbar";
 
 export default function Home() {
   return (

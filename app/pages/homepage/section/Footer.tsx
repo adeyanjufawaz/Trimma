@@ -4,7 +4,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="mt-10 grid py-12 grid-cols-1 gap-10 md:grid-cols-[1fr_1.4fr] lg:grid-cols-[1fr_1.2fr]">
+    <div className="mt-10 grid sticky bottom-0 py-12 grid-cols-1 gap-10 md:grid-cols-[1fr_1.4fr] lg:grid-cols-[1fr_1.2fr]">
       <div className=" p-6">
         <Image src={trimma} alt="Trimma Logo" />
         <p className="text-base font-light my-5">

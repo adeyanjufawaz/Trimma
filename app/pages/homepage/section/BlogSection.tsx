@@ -1,5 +1,5 @@
 import React from "react";
-import BlogCard from "../component/BlogCard";
+import BlogCard from "../../../component/homepage/BlogCard";
 
 function BlogSection() {
   return (

@@ -5,6 +5,8 @@ import Image from "next/image";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Button from "./Button";
 
+
+
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => setMenuOpen(!menuOpen);

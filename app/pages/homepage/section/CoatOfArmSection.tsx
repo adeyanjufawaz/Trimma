@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function CoatOfArmSection() {
   return (
-    <div className="pb-10">
+    <div className="py-10">
       <div className=" flex gap-5 w-full">
         <div className="max-h-30 flex w-[15%] ">
           {/* className=" bg-cover flex flex-col w-full bg-center p-4 py-12"

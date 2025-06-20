@@ -1,5 +1,5 @@
 import React from "react";
-import IntroCard from "../component/IntroCard";
+import IntroCard from "../../../component/homepage/IntroCard";
 import { user1 } from "@/public/img";
 
 const ExpertList = [
