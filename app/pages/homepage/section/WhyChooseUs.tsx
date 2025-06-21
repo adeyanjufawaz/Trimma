@@ -2,13 +2,18 @@ import { cameraMan, circle } from "@/public/img";
 
 function WhyChooseUs() {
   return (
-    <div className="grid justify-self-center lg:justify-self-start lg:justify-items-start justify-items-center lg:grid-cols-2">
+    <div className="grid  justify-self-center lg:justify-self-start lg:justify-items-start justify-items-center lg:grid-cols-2">
+      <div className=" bg-cover relative object-contain min-h-[500px] bg-center h-full w-full">
+        <div className="bg-gray-400 animate-pulse flex justify-center items-center w-full h-full">
+          Image Loading.....
+        </div>
+        <div
+          style={{ backgroundImage: `url(${cameraMan.src})` }}
+          className="absolute top-0 w-full h-full"
+        ></div>
+      </div>
       <div
-        className=" bg-cover object-contain min-h-[500px] bg-center h-full w-full"
-        style={{ backgroundImage: `url(${cameraMan.src})` }}
-      ></div>
-      <div
-        className=" bg-cover flex flex-col w-full bg-center lg:p-4 py-12"
+        className=" bg-cover bg-no-repeat flex flex-col w-full bg-center lg:p-4 py-12"
         style={{ backgroundImage: `url(${circle.src})` }}
       >
         <p className="text-5xl  font-medium">Why Choose Us?</p>
@@ -59,7 +64,6 @@ function WhyChooseUs() {
                 </div>
               </div>
             </div>
-
 
             {/*  */}
             <div className="grid gap-5 lg:grid-cols-2 w-full">
