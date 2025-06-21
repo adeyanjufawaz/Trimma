@@ -1,6 +1,6 @@
 import React from "react";
 import IntroCard from "../../../component/homepage/IntroCard";
-import { user1 } from "@/public/img";
+import { user1, user2, user3, user4 } from "@/public/img";
 
 const ExpertList = [
   {
@@ -20,10 +20,23 @@ function IntroduceSection() {
         Our Team of Featured Expert Journalists
       </h2>
       <div className="grid gap-4 mt-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        <IntroCard user="1" />
-        <IntroCard user="2" />
-        <IntroCard user="1" />
-        <IntroCard user="2" />
+        <div
+          className=" h-56 w-56 bg-no-repeat bg-contain bg-center"
+          style={{ backgroundImage: `url(${user1.src})` }}
+        ></div>
+        <div
+          className=" h-56 w-56 bg-no-repeat bg-contain bg-center"
+          style={{ backgroundImage: `url(${user2.src})` }}
+        ></div>
+        <div
+          className=" h-56 w-56 bg-no-repeat bg-contain bg-center"
+          style={{ backgroundImage: `url(${user3.src})` }}
+        ></div>
+        <div
+          className=" h-56 w-56 bg-no-repeat bg-contain bg-center"
+          style={{ backgroundImage: `url(${user4.src})` }}
+        ></div>
+        
       </div>
     </div>
   );

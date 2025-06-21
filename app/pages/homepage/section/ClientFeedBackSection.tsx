@@ -1,4 +1,11 @@
-import { allStars, circle, leftRectangle, longrectangle, yellowDash } from "@/public/img";
+import {
+  allStars,
+  circle,
+  face,
+  leftRectangle,
+  longrectangle,
+  yellowDash,
+} from "@/public/img";
 import Image from "next/image";
 import React from "react";
 
@@ -34,12 +41,17 @@ function ClientFeedBackSection() {
             truly grateful.
           </h4>
           <div className="mt-8 flex justify-end items-center gap-5">
-            <div>
+            <div className="flex gap-3">
+              <Image src={face} alt="face" className="h-full p-1" />
+              <div>
                 <h4 className="text-xl font-medium">Mallam Abdul Kyari</h4>
-                <p className="text-xs font-normal mt-3">DG. Nigeria Communications Commisions</p>
+                <p className="text-xs font-normal mt-3">
+                  DG. Nigeria Communications Commisions
+                </p>
+              </div>
             </div>
             <div>
-                <Image src={allStars} alt="All Stars"/>
+              <Image src={allStars} alt="All Stars" />
             </div>
           </div>
         </div>

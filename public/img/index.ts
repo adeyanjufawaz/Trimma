@@ -8,6 +8,7 @@ import Corporate from "./Corporate.svg";
 import coatOfArmImg from "./coatOfArmImg.svg";
 import educationIcon from "./educationIcon.svg";
 import facebook from "./facebook.svg";
+import face from "./face.svg";
 import healthicons from "./healthicons.svg";
 import instagram from "./instagram.svg";
 import leftRectangle from "./leftRectangle.svg";
@@ -23,6 +24,8 @@ import trimma from "./trimma.svg";
 import twitter from "./twitter.svg";
 import user1 from "./user1.svg";
 import user2 from "./user2.svg";
+import user3 from "./user3.svg";
+import user4 from "./user4.svg";
 import yellowDash from "./yellowDash.svg";
 
 export {
@@ -36,6 +39,7 @@ export {
   coatOfArmImg,
   educationIcon,
   healthicons,
+  face,
   facebook,
   instagram,
   leftRectangle,
@@ -51,5 +55,7 @@ export {
   twitter,
   user1,
   user2,
+  user3,
+  user4,
   yellowDash,
 };

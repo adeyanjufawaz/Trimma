@@ -4,7 +4,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="grid gap-6  md:grid-cols-2 grid-cols-1 ">
+    <div className="grid gap-6 mt-20 lg:mt-0  md:grid-cols-2 grid-cols-1 ">
       <div className="flex  lg:py-32 lg:mt-0 relative flex-col justify-center ">
         <Image
           src={leftRectangle}
