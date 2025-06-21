@@ -9,7 +9,7 @@ function WhyChooseUs() {
         </div>
         <div
           style={{ backgroundImage: `url(${cameraMan.src})` }}
-          className="absolute top-0 w-full h-full"
+          className="absolute bg-cover bg-no-repeat bg-centeru top-0 w-full h-full"
         ></div>
       </div>
       <div

@@ -31,13 +31,13 @@ function Hero() {
           </button>
         </section>
       </div>
-      <div className="min-h-96 relative  bg-cover bg-center bg-no-repeat">
+      <div className="min-h-96 w-full relative  bg-no-repeat">
         <div className="bg-gray-400 animate-pulse flex justify-center items-center w-full h-full">
           Image Loading.....
         </div>
         <div
           style={{ backgroundImage: `url(${team.src})` }}
-          className="absolute top-0 w-full h-full"
+          className="absolute bg-cover bg-no-repeat bg-center top-0 w-full h-full"
         ></div>
       </div>
     </div>
