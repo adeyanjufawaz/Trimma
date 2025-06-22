@@ -6,7 +6,7 @@ function ServiceSection() {
     <div className="pt-10 p-4 flex justify-center items-center text-center flex-col">
       <p className="text-pry-dark font-medium text-xl">OUR SERVICES</p>
       <h2 className="font-semibold text-5xl my-6">Exlclusive services we offer</h2>
-      <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-5 p-8 mx-auto place-items-center ">
+      <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-5 p-8 mx-auto items-stretch place-items-center ">
         {serviceData.map((data, ind) => (
           <ServiceCard
             key={ind}
